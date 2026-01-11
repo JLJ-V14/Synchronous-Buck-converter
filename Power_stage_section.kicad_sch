@@ -2951,6 +2951,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 30.48) (xy 57.15 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d5af5e-67fa-47be-953f-d56ace825d45")
+	)
+	(wire
+		(pts
 			(xy 24.13 168.91) (xy 41.91 168.91)
 		)
 		(stroke
@@ -3251,13 +3261,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 30.48) (xy 57.15 30.48)
+			(xy 38.1 27.94) (xy 38.1 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3e4c5ea-5d36-4091-a6e7-3f3d40ffa77b")
+		(uuid "d27fb800-2918-4d3b-94ac-efd168aeaaf1")
 	)
 	(wire
 		(pts
@@ -3499,16 +3509,6 @@
 		)
 		(uuid "aa92a5e7-4baf-45d9-9940-eb95a5e85393")
 	)
-	(label "VIN"
-		(at 50.8 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5c2df58-4652-44d0-897c-e150d8eb784c")
-	)
 	(label "SW_NODE"
 		(at 180.34 26.67 0)
 		(effects
@@ -3557,7 +3557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 237.1852 45.72 0)
 			(effects
 				(font
@@ -3576,6 +3576,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 236.22 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/en/products/detail/samsung-electro-mechanics/CL10A226MP8NUNE/3886932"
 			(at 236.22 41.91 0)
 			(effects
 				(font
@@ -3705,7 +3714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 241.3 127.508 90)
 			(effects
 				(font
@@ -3725,6 +3734,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 241.3 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor link" "https://www.digikey.es/en/products/detail/panasonic-electronic-components/ERJ-6ENF10R0V/110893"
+			(at 241.3 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,6 +3820,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.es/en/products/detail/kemet/C0603C105K4RACTU/2199788"
+			(at 144.78 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3bdb2d5c-c894-430a-a354-e7d973fd4bfb")
 		)
@@ -3845,7 +3872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 108.9152 44.45 0)
 			(effects
 				(font
@@ -3864,6 +3891,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/en/products/detail/murata-electronics/GRM188R6YA106MA73D/5877411"
 			(at 107.95 40.64 0)
 			(effects
 				(font
@@ -4074,6 +4110,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.es/en/products/detail/kemet/C0603C105K4RACTU/2199788"
+			(at 110.49 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f8fd2a56-52a8-43db-afb2-53c26a0f1f9e")
 		)
@@ -4117,7 +4162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 225.7552 45.72 0)
 			(effects
 				(font
@@ -4136,6 +4181,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 224.79 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/en/products/detail/samsung-electro-mechanics/CL10A226MP8NUNE/3886932"
 			(at 224.79 41.91 0)
 			(effects
 				(font
@@ -4453,7 +4507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Library:SC63CB"
 			(at 60.96 30.48 0)
 			(effects
 				(font
@@ -4473,6 +4527,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/en/products/detail/signal-transformer/SC63CB-2R0/2777928?s=N4IgjCBcpgTGBOKoDGUBmBDANgZwKYA0IA9lANoiwAMYArAgCwgC6xADgC5QgDKnAJwCWAOwDmIAL7EaADgDsyEGkhY8RUhSoACAK0AJVh26QQAVRFDOAeXQBZfJlwBXAfimTJQA"
+			(at 60.96 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4596,7 +4659,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "800"
+		(property "Value" "200"
 			(at 167.64 167.6399 0)
 			(effects
 				(font
@@ -4605,7 +4668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 163.322 166.37 90)
 			(effects
 				(font
@@ -4624,6 +4687,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 165.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/en/products/detail/panasonic-electronic-components/ERA-8AEB201V/3070865"
 			(at 165.1 166.37 0)
 			(effects
 				(font
@@ -4808,7 +4880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM66200DRLR:SOT8"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-583-8"
 			(at 57.15 168.91 0)
 			(effects
 				(font
@@ -4916,6 +4988,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.es/en/products/detail/texas-instruments/LM66200DRLR/15856663?s=N4IgTCBcDaIDIFkBsSwAY0BEBKdsgF0BfIA"
+			(at 57.15 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "80937992-c80c-4d70-b0bd-d6fdd4c26911")
 		)
@@ -4974,7 +5055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 241.3 140.208 90)
 			(effects
 				(font
@@ -4994,6 +5075,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 241.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/en/products/detail/panasonic-electronic-components/ERJ-6ENF10R0V/110893"
+			(at 241.3 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,7 +5332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
 			(at 218.44 130.81 0)
 			(effects
 				(font
@@ -5563,6 +5653,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor link" "https://www.digikey.es/en/products/detail/samsung-electro-mechanics/CL10A226MP8NUNE/3886932"
+			(at 259.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f26cc87e-6104-4bda-8905-855f8e3b2596")
 		)
@@ -5606,7 +5705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 248.6152 45.72 0)
 			(effects
 				(font
@@ -5625,6 +5724,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 247.65 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/en/products/detail/samsung-electro-mechanics/CL10A226MP8NUNE/3886932"
 			(at 247.65 41.91 0)
 			(effects
 				(font
@@ -5742,7 +5850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.7"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 213.36 43.18 0)
 			(effects
 				(font
@@ -5761,6 +5869,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
+			(at 213.36 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/en/products/detail/murata-electronics/GRM31CR61A107MEA8K/16286003"
 			(at 213.36 43.18 0)
 			(effects
 				(font
@@ -5812,7 +5929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 120.3452 44.45 0)
 			(effects
 				(font
@@ -5831,6 +5948,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/en/products/detail/murata-electronics/GRM188R6YA106MA73D/5877411"
 			(at 119.38 40.64 0)
 			(effects
 				(font
@@ -5948,7 +6074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.7"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7260-20_AVX-M_HandSolder"
 			(at 80.01 40.64 0)
 			(effects
 				(font
@@ -6057,6 +6183,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 38.1 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6fa615f-e189-4a67-9cec-4d3cfa659833")
+		(property "Reference" "#PWR062"
+			(at 38.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "INPUT POWER"
+			(at 43.688 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b74798fb-aa5f-4ede-9518-1c19ef9681ba")
+		)
+		(instances
+			(project "Power electronics converter"
+				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef/786ad597-14f6-4422-adbf-29cf6da35805"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 38.1 184.15 0)
 		(unit 1)
@@ -6148,7 +6339,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 153.67 158.75 0)
 			(effects
 				(font
@@ -6176,6 +6367,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 153.67 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/en/products/detail/liteon/LTST-C171KRKT/386801"
 			(at 153.67 158.75 0)
 			(effects
 				(font
@@ -6227,7 +6427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 192.7352 121.92 0)
 			(effects
 				(font
@@ -6246,6 +6446,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 191.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 191.77 118.11 0)
 			(effects
 				(font
@@ -6360,7 +6569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_12x12mm_H8mm"
 			(at 204.47 30.48 0)
 			(effects
 				(font
@@ -6380,6 +6589,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/en/products/detail/sumida-america-inc/CDRH125-LDNP-150MC/1879006"
+			(at 204.47 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,7 +6791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 97.4852 44.45 0)
 			(effects
 				(font
@@ -6592,6 +6810,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/en/products/detail/murata-electronics/GRM188R6YA106MA73D/5877411"
 			(at 96.52 40.64 0)
 			(effects
 				(font

@@ -625,16 +625,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 53.34) (xy 135.89 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "754b01cd-0d7c-4a0a-a66d-d055d6c33732")
-	)
-	(wire
-		(pts
 			(xy 218.44 71.12) (xy 218.44 74.93)
 		)
 		(stroke
@@ -642,6 +632,16 @@
 			(type default)
 		)
 		(uuid "8286cb69-02b6-4d72-9b02-2e3f91e12e24")
+	)
+	(wire
+		(pts
+			(xy 135.89 53.34) (xy 135.89 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83830793-e906-471c-8985-fe0380a7260a")
 	)
 	(wire
 		(pts
@@ -745,7 +745,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 113.03) (xy 30.48 116.84)
+			(xy 30.48 113.03) (xy 30.48 119.38)
 		)
 		(stroke
 			(width 0)
@@ -833,16 +833,6 @@
 		)
 		(uuid "2004d707-6214-441a-8a93-e01b95fbd13e")
 	)
-	(label "VIN"
-		(at 135.89 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3644adc6-1df2-422e-a866-f46939579702")
-	)
 	(label "USART_RX"
 		(at 218.44 74.93 0)
 		(effects
@@ -912,16 +902,6 @@
 			(justify left bottom)
 		)
 		(uuid "9fa00dbe-9220-464f-8eac-a1f73f311c09")
-	)
-	(label "VIN"
-		(at 30.48 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9f0583e-3388-4239-bd4b-c629db73be2a")
 	)
 	(label "SW_NODE"
 		(at 186.69 57.15 0)
@@ -1021,7 +1001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 223.52 53.34 0)
 			(effects
 				(font
@@ -1040,6 +1020,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
 			(at 218.44 53.34 0)
 			(effects
 				(font
@@ -1115,6 +1104,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
+			(at 246.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba7f060c-27af-427d-ba45-a850bf51a0eb")
 		)
@@ -1155,7 +1153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 223.52 71.12 0)
 			(effects
 				(font
@@ -1174,6 +1172,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 218.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
 			(at 218.44 71.12 0)
 			(effects
 				(font
@@ -1222,7 +1229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 157.48 71.12 0)
 			(effects
 				(font
@@ -1241,6 +1248,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 152.4 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
 			(at 152.4 71.12 0)
 			(effects
 				(font
@@ -1355,7 +1371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 157.48 53.34 0)
 			(effects
 				(font
@@ -1374,6 +1390,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 152.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
 			(at 152.4 53.34 0)
 			(effects
 				(font
@@ -1488,7 +1513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 191.77 71.12 0)
 			(effects
 				(font
@@ -1507,6 +1532,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 186.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
 			(at 186.69 71.12 0)
 			(effects
 				(font
@@ -1714,6 +1748,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
+			(at 232.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f986f54-cf2e-44cf-9c0b-37d52ea6dd11")
 		)
@@ -1821,7 +1864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 237.49 53.34 0)
 			(effects
 				(font
@@ -1840,6 +1883,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 232.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
 			(at 232.41 53.34 0)
 			(effects
 				(font
@@ -1980,6 +2032,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8016da4-f695-4a40-9c13-d3dc3046a572")
 		)
@@ -2020,7 +2081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 173.99 71.12 0)
 			(effects
 				(font
@@ -2039,6 +2100,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 168.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
 			(at 168.91 71.12 0)
 			(effects
 				(font
@@ -2351,7 +2421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 140.97 71.12 0)
 			(effects
 				(font
@@ -2370,6 +2440,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
 			(at 135.89 71.12 0)
 			(effects
 				(font
@@ -2552,7 +2631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 208.28 53.34 0)
 			(effects
 				(font
@@ -2571,6 +2650,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
 			(at 203.2 53.34 0)
 			(effects
 				(font
@@ -2753,7 +2841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 140.97 53.34 0)
 			(effects
 				(font
@@ -2780,6 +2868,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "857a5335-6dc3-432f-a4a0-9e1f57fe25e3")
 		)
@@ -2787,6 +2884,71 @@
 			(project ""
 				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef/46845ab1-1a5d-46d8-bd72-b2aa0ae476d1"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 30.48 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1ab0265-cdc9-4b66-9fe5-d08405db8eda")
+		(property "Reference" "#PWR063"
+			(at 30.48 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "INPUT POWER"
+			(at 39.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 30.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b499a10-9fa2-4dee-8f0a-15d7e69a885a")
+		)
+		(instances
+			(project "Power electronics converter"
+				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef/46845ab1-1a5d-46d8-bd72-b2aa0ae476d1"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2885,7 +3047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 265.43 53.34 0)
 			(effects
 				(font
@@ -2904,6 +3066,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
 			(at 260.35 53.34 0)
 			(effects
 				(font
@@ -3017,7 +3188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 208.28 71.12 0)
 			(effects
 				(font
@@ -3036,6 +3207,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 203.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
 			(at 203.2 71.12 0)
 			(effects
 				(font
@@ -3084,7 +3264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 251.46 53.34 0)
 			(effects
 				(font
@@ -3103,6 +3283,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 246.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
 			(at 246.38 53.34 0)
 			(effects
 				(font
@@ -3178,6 +3367,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
+			(at 260.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b8f09dc-fa93-4817-b51d-866ecc558b5b")
 		)
@@ -3218,7 +3416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 191.77 53.34 0)
 			(effects
 				(font
@@ -3245,6 +3443,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
+			(at 186.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77bf4715-14e1-4026-92ae-d808b43486f4")
 		)
@@ -3252,6 +3459,71 @@
 			(project "Power electronics converter"
 				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef/46845ab1-1a5d-46d8-bd72-b2aa0ae476d1"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 135.89 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4d7711c-2b2a-4344-8a1c-5ccac0eb2e95")
+		(property "Reference" "#PWR064"
+			(at 135.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "INPUT POWER"
+			(at 143.764 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 135.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db6545bc-121d-4da2-93b1-cf9134a5c4e0")
+		)
+		(instances
+			(project "Power electronics converter"
+				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef/46845ab1-1a5d-46d8-bd72-b2aa0ae476d1"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3285,7 +3557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 173.99 53.34 0)
 			(effects
 				(font
@@ -3304,6 +3576,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 168.91 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
 			(at 168.91 53.34 0)
 			(effects
 				(font
