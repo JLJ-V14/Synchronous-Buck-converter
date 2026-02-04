@@ -9,7 +9,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 63.5 40.64)
+		(at 40.64 40.64)
 		(size 36.83 92.71)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25,7 +25,7 @@
 		)
 		(uuid "181d2e3d-9838-4d2f-9939-b70e6aaea26c")
 		(property "Sheetname" "MCU Section"
-			(at 63.5 39.9284 0)
+			(at 40.64 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 63.5 133.9346 0)
+			(at 40.64 133.9346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,7 +51,7 @@
 		)
 	)
 	(sheet
-		(at 151.13 40.64)
+		(at 128.27 40.64)
 		(size 33.02 91.44)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -67,7 +67,7 @@
 		)
 		(uuid "3fd8f6e7-9678-403d-8d1b-7d0f1047090c")
 		(property "Sheetname" "ADC sensing"
-			(at 151.13 39.9284 0)
+			(at 128.27 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +76,7 @@
 			)
 		)
 		(property "Sheetfile" "Adc_sensing.kicad_sch"
-			(at 151.13 132.6646 0)
+			(at 128.27 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93,7 +93,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 40.64)
+		(at 167.64 40.64)
 		(size 40.64 92.71)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -109,7 +109,7 @@
 		)
 		(uuid "46845ab1-1a5d-46d8-bd72-b2aa0ae476d1")
 		(property "Sheetname" "Connectors"
-			(at 190.5 39.9284 0)
+			(at 167.64 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -118,7 +118,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 190.5 133.9346 0)
+			(at 167.64 133.9346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -135,7 +135,7 @@
 		)
 	)
 	(sheet
-		(at 110.49 40.64)
+		(at 87.63 40.64)
 		(size 34.29 90.17)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -151,7 +151,7 @@
 		)
 		(uuid "786ad597-14f6-4422-adbf-29cf6da35805")
 		(property "Sheetname" "Power Stage Section"
-			(at 110.49 39.9284 0)
+			(at 87.63 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160,7 +160,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_stage_section.kicad_sch"
-			(at 110.49 131.3946 0)
+			(at 87.63 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172,6 +172,57 @@
 			(project "Power electronics converter"
 				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 40.64)
+		(size 40.64 92.71)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f0603d39-febb-4810-a223-b05f1a101f8d")
+		(property "Sheetname" "Circuit_protections"
+			(at 213.36 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "Circuit_protections.kicad_sch"
+			(at 213.36 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 213.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Power electronics converter"
+				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef"
+					(page "6")
 				)
 			)
 		)

@@ -1,4 +1,4 @@
-25212493390932120
+25224874729722811
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -66682,9 +66682,23 @@ Yellow 5381 Series LED
 2
 2
 Library
+INDUCTOR_TDK_BUCK
+Choke, SMD, 12x12mm 8mm height
+Choke SMD
+0
+2
+2
+Library
 SC63CB
 Choke, SMD, 6.3x6.3mm 3mm height
 Choke SMD
+0
+2
+2
+Library
+XTAL_ABLS2-8.000MHZ-D4Y-T
+
+
 0
 2
 2
@@ -101282,10 +101296,45 @@ Varistor VF
 0
 2
 2
+footprints
+CON64_2X32_TU_HTS_SAI
+
+TD-132-G-A 
+0
+3
+3
+footprints
+CON64_2X32_TU_HTS_SAI_CUSTOM
+
+TD-132-G-A 
+0
+3
+3
+footprints
+CONN_10118194-0001LF_AMP
+
+10118194-0001LF 
+0
+7
+6
+usb_b
+CON64_2X32_TU_HTS_SAI
+
+TD-132-G-A 
+0
+3
+3
+usb_b
+CON64_2X32_TU_HTS_SAI_CUSTOM
+
+TD-132-G-A 
+0
+3
+3
 usb_b
 CONN_10118194-0001LF_AMP
 
 10118194-0001LF 
 0
 7
-7
+6

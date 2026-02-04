@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.05,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 6.4,
+          "height": 10.0,
+          "width": 10.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -706,6 +706,10 @@
     [
       "46845ab1-1a5d-46d8-bd72-b2aa0ae476d1",
       "Connectors"
+    ],
+    [
+      "f0603d39-febb-4810-a223-b05f1a101f8d",
+      "Circuit_protections"
     ]
   ],
   "text_variables": {}

@@ -207,7 +207,7 @@
 		(layer "F.Fab")
 		(uuid "45ebda71-6a32-4c1b-b917-05416683b8d4")
 	)
-	(pad "2" thru_hole circle
+	(pad "1" thru_hole circle
 		(at -39.37 -1.27 90)
 		(size 1.27 1.27)
 		(drill 0.7112)
@@ -215,7 +215,7 @@
 		(remove_unused_layers no)
 		(uuid "f2d0e53b-6e12-4c54-adbb-6512d2889cdc")
 	)
-	(pad "4" thru_hole circle
+	(pad "2" thru_hole circle
 		(at -36.83 -1.27 90)
 		(size 1.27 1.27)
 		(drill 0.7112)
@@ -223,7 +223,7 @@
 		(remove_unused_layers no)
 		(uuid "531e1568-0cd5-4a88-9dd9-d847dfe5eb0b")
 	)
-	(pad "6" thru_hole circle
+	(pad "3" thru_hole circle
 		(at -34.29 -1.27 90)
 		(size 1.27 1.27)
 		(drill 0.7112)
