@@ -448,6 +448,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 25.4 45.72)
@@ -533,6 +634,12 @@
 		)
 		(uuid "d224b291-bcac-4933-b5d9-20444d5f442d")
 	)
+	(junction
+		(at 30.48 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e5848b0-993c-4aa8-bb34-fb269fb3f0a1")
+	)
 	(wire
 		(pts
 			(xy 63.5 67.31) (xy 63.5 68.58)
@@ -575,6 +682,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 116.84) (xy 30.48 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd97c6c-588a-4c96-8c1e-da4c9f2d6e7c")
+	)
+	(wire
+		(pts
 			(xy 30.48 133.35) (xy 30.48 139.7)
 		)
 		(stroke
@@ -595,16 +712,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 52.07) (xy 234.95 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "875a9dad-97d1-4712-b164-76d4c55ccce9")
-	)
-	(wire
-		(pts
 			(xy 134.62 53.34) (xy 134.62 55.88)
 		)
 		(stroke
@@ -615,13 +722,23 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 113.03) (xy 63.5 115.57)
+			(xy 63.5 113.03) (xy 63.5 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a3a4091d-6d71-4ae6-ae33-010cfd8836e2")
+	)
+	(wire
+		(pts
+			(xy 30.48 116.84) (xy 54.61 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91d2eb6-5a09-4dd7-b11a-db99b76410d2")
 	)
 	(wire
 		(pts
@@ -645,16 +762,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 78.74) (xy 162.56 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce842fef-5713-41f8-a174-f5a331343d8e")
-	)
-	(wire
-		(pts
 			(xy 148.59 52.07) (xy 148.59 57.15)
 		)
 		(stroke
@@ -665,7 +772,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 113.03) (xy 30.48 119.38)
+			(xy 30.48 113.03) (xy 30.48 116.84)
 		)
 		(stroke
 			(width 0)
@@ -685,16 +792,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 52.07) (xy 252.73 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8ef6532-597a-4f28-b4e5-3b3c3e5c159f")
-	)
-	(wire
-		(pts
 			(xy 63.5 133.35) (xy 63.5 139.7)
 		)
 		(stroke
@@ -702,16 +799,6 @@
 			(type default)
 		)
 		(uuid "f639e908-8309-4de7-a12e-f03e05c7a1da")
-	)
-	(wire
-		(pts
-			(xy 147.32 78.74) (xy 147.32 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f82d250d-9205-4269-aebf-640147b51501")
 	)
 	(wire
 		(pts
@@ -746,28 +833,6 @@
 		(uuid "0dc9d193-81e7-483a-bdc0-ae051003a91a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 176.53 67.5133 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_D_PLUS"
-		(shape input)
-		(at 162.56 82.55 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f7444c7-de7d-49f9-aefe-6cdbbf3acced")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.56 97.3885 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,72 +886,6 @@
 			)
 		)
 	)
-	(global_label "SWCLK"
-		(shape input)
-		(at 252.73 57.15 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "681b915f-4192-43e4-9bd2-e689b2b0ac82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.73 66.3642 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SWDIO"
-		(shape input)
-		(at 234.95 55.88 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "70721350-3c2a-4465-9116-e024be248fcf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.95 64.7314 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_D_MINUS"
-		(shape input)
-		(at 147.32 82.55 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7784f8a9-d679-4ee5-8a52-99ec72ddf3f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 98.4771 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI_MISO"
 		(shape input)
 		(at 208.28 55.88 270)
@@ -900,6 +899,28 @@
 		(uuid "791a7974-390e-42b1-84fb-0b9567b18c91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 208.28 67.5133 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VOUT"
+		(shape input)
+		(at 63.5 118.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "952c7d00-3bca-4ce8-a2b1-900700c4c0e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 125.8124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1024,82 +1045,6 @@
 			(project "Power electronics converter"
 				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef/46845ab1-1a5d-46d8-bd72-b2aa0ae476d1"
 					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 252.73 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "095b75f7-fb45-4c11-ab4e-7d260c65a4e2")
-		(property "Reference" "TP17"
-			(at 255.27 47.4979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 255.27 50.0379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 257.81 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 252.73 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
-			(at 252.73 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a23dc014-3daf-4ea2-b553-ab0ed1f04cdc")
-		)
-		(instances
-			(project "Power electronics converter"
-				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef/46845ab1-1a5d-46d8-bd72-b2aa0ae476d1"
-					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -1304,82 +1249,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 234.95 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d966df3-2641-46cb-a90e-304ff403a9c2")
-		(property "Reference" "TP16"
-			(at 237.49 47.4979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 237.49 50.0379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 240.03 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 234.95 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
-			(at 234.95 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4e36d71-c535-466e-8275-cc24674fb705")
-		)
-		(instances
-			(project "Power electronics converter"
-				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef/46845ab1-1a5d-46d8-bd72-b2aa0ae476d1"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 29.21 52.07 0)
 		(unit 1)
@@ -1389,7 +1258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ddc2092-5e1a-4a4e-be33-9f4fe532e9b3")
-		(property "Reference" "H?"
+		(property "Reference" "H1"
 			(at 31.75 49.5299 0)
 			(effects
 				(font
@@ -1440,7 +1309,7 @@
 		(instances
 			(project "Power electronics converter"
 				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef/46845ab1-1a5d-46d8-bd72-b2aa0ae476d1"
-					(reference "H?")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -1523,6 +1392,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 54.61 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "574c92b8-a4d0-4d5d-9a42-3bac744a56c9")
+		(property "Reference" "#FLG01"
+			(at 54.61 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "INPUT POWER"
+			(at 54.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 54.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdc3046a-e669-470a-9cd8-e94af551a95c")
+		)
+		(instances
+			(project ""
+				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef/46845ab1-1a5d-46d8-bd72-b2aa0ae476d1"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 30.48 139.7 0)
 		(unit 1)
@@ -1582,82 +1517,6 @@
 			(project "Power electronics converter"
 				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef/46845ab1-1a5d-46d8-bd72-b2aa0ae476d1"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 162.56 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b4ea074-d759-4c52-ac6d-44ed53d595a8")
-		(property "Reference" "TP19"
-			(at 165.1 74.1679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 165.1 76.7079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 167.64 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 162.56 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
-			(at 162.56 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80e0701d-30fd-47e6-8ef5-55d36bed79a5")
-		)
-		(instances
-			(project "Power electronics converter"
-				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef/46845ab1-1a5d-46d8-bd72-b2aa0ae476d1"
-					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -2014,7 +1873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a530ed1-6107-483f-a111-5708ff4fac1e")
-		(property "Reference" "H?"
+		(property "Reference" "H9"
 			(at 33.02 107.9499 0)
 			(effects
 				(font
@@ -2065,7 +1924,7 @@
 		(instances
 			(project "Power electronics converter"
 				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef/46845ab1-1a5d-46d8-bd72-b2aa0ae476d1"
-					(reference "H?")
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -2690,82 +2549,6 @@
 			(project "Power electronics converter"
 				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef/46845ab1-1a5d-46d8-bd72-b2aa0ae476d1"
 					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 147.32 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4f3ae87-6c5a-46ff-bc45-0dccf17b87d9")
-		(property "Reference" "TP18"
-			(at 149.86 74.1679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 149.86 76.7079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 152.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 147.32 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.digikey.es/es/products/detail/keystone-electronics/5117/2170320"
-			(at 147.32 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5a5aa0c-9d16-45af-9614-580afdd2a6dc")
-		)
-		(instances
-			(project "Power electronics converter"
-				(path "/8bff22cb-9bb1-47e8-8b56-bb93bafcd2ef/46845ab1-1a5d-46d8-bd72-b2aa0ae476d1"
-					(reference "TP18")
 					(unit 1)
 				)
 			)

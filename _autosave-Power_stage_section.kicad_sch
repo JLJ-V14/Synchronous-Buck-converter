@@ -2486,7 +2486,7 @@
 		)
 		(uuid "4582c56c-afec-400f-99e8-bd48f2b7ba95")
 	)
-	(text "1.25\n"
+	(text "1.25A\n"
 		(exclude_from_sim no)
 		(at 45.72 27.94 0)
 		(effects

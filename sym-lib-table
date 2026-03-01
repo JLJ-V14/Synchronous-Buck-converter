@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "USB B CONNECTOR")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty/KiCADv6/2026-01-11_16-24-43.kicad_sym")(options "")(descr ""))
   (lib (name "ABLS2-8.000MHZ-D4Y-T")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty/ABLS2-8.000MHZ-D4Y-T.kicad_sym")(options "")(descr ""))
+  (lib (name "INA300AIDGSR")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty/INA300AIDGSR.kicad_sym")(options "")(descr ""))
 )

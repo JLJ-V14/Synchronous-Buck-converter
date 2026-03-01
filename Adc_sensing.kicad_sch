@@ -1458,7 +1458,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 68.58) (xy 218.44 68.58)
+			(xy 209.55 68.58) (xy 218.44 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2016,16 +2016,6 @@
 		)
 		(uuid "9b01b2df-889a-4c55-926a-16486c392770")
 	)
-	(label "I_OUT_SENSING"
-		(at 231.14 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af327584-cc65-4e33-a64f-c24a260541b0")
-	)
 	(label "VOUT_SENSING"
 		(at 93.98 67.31 0)
 		(effects
@@ -2158,7 +2148,7 @@
 	)
 	(global_label "VSHUNT_PLUS"
 		(shape input)
-		(at 210.82 68.58 180)
+		(at 209.55 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2168,7 +2158,7 @@
 		)
 		(uuid "a5cffe8e-9ce1-4dff-97ba-4a708353994e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.7719 68.58 0)
+			(at 193.5019 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
