@@ -2486,7 +2486,7 @@
 		)
 		(uuid "4582c56c-afec-400f-99e8-bd48f2b7ba95")
 	)
-	(text "1.25\n"
+	(text "1.25A\n"
 		(exclude_from_sim no)
 		(at 45.72 27.94 0)
 		(effects
@@ -5499,7 +5499,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "58ad0571-c8e4-4bf5-a848-a3bcc722ec53")
 		(property "Reference" "#PWR066"
 			(at 190.5 161.29 0)
@@ -5510,12 +5509,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SGND"
-			(at 190.5 160.02 0)
+		(property "Value" "GND"
+			(at 191.008 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6095,12 +6095,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SGND"
-			(at 140.97 177.8 0)
+		(property "Value" "GND"
+			(at 143.51 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6250,12 +6251,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SGND"
-			(at 106.68 181.61 0)
+		(property "Value" "GND"
+			(at 109.22 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7059,12 +7061,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SGND"
-			(at 125.73 177.8 0)
+		(property "Value" "GND"
+			(at 128.27 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7500,7 +7503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SGND"
+		(property "Value" "GND"
 			(at 200.66 160.02 0)
 			(effects
 				(font
@@ -7995,12 +7998,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SGND"
-			(at 161.29 177.8 0)
+		(property "Value" "GND"
+			(at 163.83 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
